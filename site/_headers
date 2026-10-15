@@ -1,0 +1,15 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+/sw.js
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: no-cache
+/*.html
+  Cache-Control: no-cache
+/catalog/*.html
+  Cache-Control: no-cache
+/product/*.html
+  Cache-Control: no-cache
+/img/*
+  Cache-Control: public, max-age=604800

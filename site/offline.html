@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Нет соединения — Шар&amp;Ко</title>
+<meta name="theme-color" content="#F4436C">
+<link rel="icon" type="image/png" sizes="192x192" href="img/icons/icon-192.png">
+<style>
+  body{margin:0;font-family:"Manrope","Segoe UI",system-ui,sans-serif;background:#FFF7F3;color:#2E2436;display:grid;place-items:center;min-height:100vh;text-align:center;padding:24px}
+  .card{background:#fff;border-radius:28px;box-shadow:0 16px 40px rgba(46,36,54,.12);padding:48px 40px;max-width:420px}
+  h1{font-size:26px;margin:18px 0 10px}
+  p{color:#6E6478;font-size:15px;line-height:1.6;margin:0 0 24px}
+  button{background:#F4436C;color:#fff;border:0;border-radius:14px;padding:14px 28px;font:inherit;font-weight:800;cursor:pointer}
+  button:hover{background:#D92C58}
+  a{display:block;margin-top:16px;color:#F4436C;font-weight:700;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="card">
+  <svg width="72" height="72" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+    <ellipse cx="24" cy="24" rx="13" ry="16" fill="#F4436C"/>
+    <ellipse cx="41" cy="20" rx="11" ry="14" fill="#59C9AE" opacity=".9"/>
+    <ellipse cx="34" cy="34" rx="10" ry="13" fill="#F7C860" opacity=".95"/>
+    <path d="M24 40c2 6-2 10 0 16M41 34c1 8-3 12-1 20M34 47c1 5-1 8 0 12" stroke="#2E2436" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+  <h1>Пока нет соединения</h1>
+  <p>Вы офлайн. Уже открытые страницы и каталог доступны из кэша приложения, а как только сеть вернётся — всё обновится само.</p>
+  <button type="button" onclick="location.reload()">Попробовать снова</button>
+  <a href="index.html">Открыть главную из кэша</a>
+</div>
+</body>
+</html>
